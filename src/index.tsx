@@ -1,8 +1,16 @@
+// React switch https://reactrouter.com/web/guides/quick-start
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
 import reportWebVitals from './reportWebVitals';
+import App from "./App"
+
+export { default as Board } from "./Board";
+export { default as Navigation } from "./Navigation";
+export { default as Footer } from "./Footer";
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Contact } from "./Contact";
 
 ReactDOM.render(
   <React.StrictMode>
